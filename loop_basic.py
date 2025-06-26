@@ -1,4 +1,8 @@
 /*
+
+# for range(start , end)
+# by default start = 0 , range (20)
+
 Python has two main types of loops:
 
 for loops: These are used to iterate over a sequence (like a list, tuple, string, or range) or other iterable objects. They execute a block of code for each item in the sequence.
