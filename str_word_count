@@ -1,0 +1,8 @@
+s="Maharashtra"
+# print(s.count('a'))
+visited=""
+for i in s:
+  if i not in visited:
+    #
+    visited+=i
+print(i,"=",s.count(i))
