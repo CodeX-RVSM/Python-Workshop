@@ -1,0 +1,10 @@
+str="InDia is my Country "
+print(str.upper())
+print(str.lower())
+print(str.capitalize())
+print(str.title())
+print(str.swapcase())
+print(str.replace("InDia","Maha")) 
+print(str.count('is'))
+print(str.count('Country'))
+print(len(str))
