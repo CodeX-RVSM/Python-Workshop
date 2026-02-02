@@ -4,6 +4,6 @@ while num>0:
     count+=1
     num//=10
     print(num)
-print("Digit of num is ",count)
-#  
+print("Reverse",)
+
 # palinderome

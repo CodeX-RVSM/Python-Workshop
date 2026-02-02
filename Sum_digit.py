@@ -1,8 +1,6 @@
-num = 1234
-sum_digits = 0
-
-while num > 0:
-    sum_digits += num % 10
-    num //= 10
-
-print(sum_digits)
+i=1
+sum=0
+while i<=10:
+    sum+=i
+    i+=1
+print("Addition of num is ",sum)
