@@ -1,0 +1,28 @@
+a=["ram",11,24.76,"om",12,46.56]
+
+print("My name is {} and my age and marks is {} And {}".format(a[0], a[1], a[2]))
+print("My name is {} and my age and marks is {} And {}".format(a[3], a[4], a[5]))
+
+# # Using f-strings (Python 3.6+)
+# print(f"My name is {a[0]} and my age and marks is {a[1]} And {a[2]}")
+# print(f"My name is {a[3]} and my age and marks is {a[4]} And {a[5]}")
+
+# # Another way using the old % formatting (less common in new code)
+# print("My name is %s and my age and marks is %s And %s" % (a[0], a[1], a[2]))
+# print("My name is %s and my age and marks is %s And %s" % (a[3], a[4], a[5]))
+
+# name=[]
+# age=[]
+# marks=[]
+
+# for i in a :
+#   if type(i)==str:
+#     name+=[i]
+#   elif type(i)==int:
+#     age+=[i]
+#   elif type(i)==float:
+#     marks+=[i]
+
+# print(name)
+# print(age)
+# print(marks)
