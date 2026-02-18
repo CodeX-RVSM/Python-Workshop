@@ -1,0 +1,15 @@
+company={
+    "it":{
+        "emp_1":{
+            "emp_id":101,
+            "em_name":"rushi",
+            "salary":50000,
+        },
+        "emp_2":{
+            "emp_id":102,
+            "em_name":"parth",
+            "salary":60000,
+        }
+    }
+}
+print(company["it"]["emp_1"]["salary"])
